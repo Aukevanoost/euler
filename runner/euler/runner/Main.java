@@ -53,6 +53,7 @@ public class Main {
                 console.writer().println("Input has to be numeric");
             } catch (Exception e) {
                 console.writer().println("Something went wrong, please try again.");
+                e.printStackTrace(console.writer());
             }
         }
 
